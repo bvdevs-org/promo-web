@@ -13,10 +13,12 @@ export default function App() {
 
       <Navigation />
 
-      <Routes>
-        <Route path="/" element={<Home />}></Route>
-        <Route path="/contact" element={<Contact />}></Route>
-      </Routes>
+      <div className="pt-40">
+        <Routes>
+          <Route path="/" element={<Home />}></Route>
+          <Route path="/contact" element={<Contact />}></Route>
+        </Routes>
+      </div>
     </div>
   );
 }

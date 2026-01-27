@@ -11,8 +11,8 @@ import infinity from "../assets/infinity.svg";
 
 export const Home = () => {
   return (
-    <div className="flex flex-col">
-      <div className="flex flex-col gap-6 py-40 px-50 lg:px-80">
+    <>
+      <div className="flex flex-col gap-6 px-50 lg:px-80 pb-20">
         <div>
           <h1 className="font-medium text-6xl">End-to-End Development.</h1>
           <h1 className="font-medium text-6xl"> Zero Compromises.</h1>
@@ -76,6 +76,6 @@ export const Home = () => {
           ></GridCell>
         </div>
       </div>
-    </div>
+    </>
   );
 };
