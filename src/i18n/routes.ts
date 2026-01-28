@@ -4,3 +4,5 @@ export const routeMap = {
 } as const;
 
 export type RouteKey = keyof typeof routeMap;
+
+export type Language = "cs" | "en";

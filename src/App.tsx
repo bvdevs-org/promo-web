@@ -4,7 +4,8 @@ import { Navigation } from "./components/Navigation";
 import { Home } from "./pages/Home";
 import { Contact } from "./pages/Contact";
 import { useTranslation } from "react-i18next";
-import { routeMap } from "./i18n/routes";
+import { routeMap, type Language } from "./i18n/routes";
+import { LanguageSwitcher } from "./components/LanguageSwitcher";
 
 export default function App() {
   return (
@@ -15,6 +16,10 @@ export default function App() {
 
       <Navigation />
 
+      <div className="fixed top-8 right-5 lg:top-10 lg:right-10 mix-blend-difference z-50">
+        <LanguageSwitcher />
+      </div>
+
       <div className="pt-40">
         <AppRoutes />
       </div>
@@ -24,7 +29,7 @@ export default function App() {
 
 function AppRoutes() {
   const { i18n } = useTranslation();
-  const lang = i18n.language as "cs" | "en";
+  const lang = i18n.language as Language;
 
   return (
     <Routes>
