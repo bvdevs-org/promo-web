@@ -6,8 +6,8 @@ import { Contact } from "./pages/Contact";
 
 export default function App() {
   return (
-    <div className="flex w-full items-center justify-center">
-      <div className="fixed top-8 left-5 lg:top-10 lg:left-10">
+    <div className="flex w-full items-center justify-center bg-white">
+      <div className="fixed top-8 left-5 lg:top-10 lg:left-10 mix-blend-difference z-50">
         <BVName className="h-10 text-3xl" />
       </div>
 
