@@ -1,0 +1,107 @@
+{
+    "nav": {
+        "home": "Home",
+        "contact": "Contact-us"
+    },
+    "home": {
+        "title1": "End-to-End Development.",
+        "title2": "Zero Compromises.",
+        "description1": "Got a game-changing idea? We handle the rest. From the first sketch to the final launch, we build precise, scalable web applications tailored to your vision.",
+        "description2": "At BVDevs, we believe that great ideas deserve flawless execution. We aren’t just coders; we are your full-cycle partners. We guide you through every step—consultation, design, development, and long-term support. Our obsession? Precision. Whether you’re launching an MVP or digitalizing a complex process, we ensure every line of code serves a purpose."
+    },
+    "grid": {
+        "header": "Powerful Tech. Human Approach.",
+        "cells": {
+            "lightning": {
+                "name": "Lightning-Fast Interface",
+                "text": "Your users expect speed. We deliver smooth, interactive, and responsive web experiences using top-tier modern frameworks like React and Next.js."
+            },
+            "performance": {
+                "name": "Unbeatable Performance",
+                "text": "Heavy traffic? No problem. We build robust backends powered by Golang to ensure your application remains stable and incredibly fast, no matter how many users join."
+            },
+            "infrastructure": {
+                "name": "Scalable Infrastructure",
+                "text": "Start small, grow big. We deploy on Google Cloud using Docker, creating a secure environment that scales automatically as your business expands."
+            },
+            "mobile": {
+                "name": "Native Mobile Experience",
+                "text": "Reach your customers anywhere. Whether it’s iOS or Android, we build stunning mobile apps using React Native, Swift, and Kotlin for a flawless feel on every device."
+            },
+            "availability": {
+                "name": "Always Within Reach",
+                "text": "No disappearing acts. We pride ourselves on being available when you need us. Whether you have a quick question or a new idea, we are just a message away."
+            },
+            "checkins": {
+                "name": "Regular Check-ins",
+                "text": "We keep the vision aligned. Through scheduled video calls, we discuss progress, gather your feedback, and plan the next steps together. You are part of the team."
+            },
+            "transparency": {
+                "name": "Crystal Clear Progress",
+                "text": "Watch your idea come to life. We share regular updates and demos, giving you full transparency into what we are building and how your budget is being used."
+            },
+            "partnership": {
+                "name": "Full-Cycle Partnership",
+                "text": "We are more than just coders. We guide you through the entire journey—from refining your initial concept to the final launch and beyond. We care about your success."
+            }
+        }
+    },
+    "contact": {
+        "hero": {
+            "title": "Let’s Make It Happen.",
+            "description": "Big ideas don't belong in a notebook—they belong on the web. Tell us a bit about your project, and let's start building the future together."
+        },
+        "formSection": {
+            "title": "Work Together. Start today.",
+            "description": "Please fill out this form, and we will respond to you within one business day. Alternatively, you can drop us an ",
+            "emailLink": "email",
+            "placeholders": {
+                "name": "Your name",
+                "email": "Your email",
+                "subject": "Subject",
+                "message": "Tell us more about your project...",
+                "submit": "Send Message"
+            },
+            "validation": {
+                "required": "This field is required",
+                "invalidEmail": "Invalid email address"
+            }
+        }
+    },
+    "form": {
+        "labels": {
+            "firstName": "First Name*",
+            "lastName": "Last Name*",
+            "email": "Email Address*",
+            "business": "Business*",
+            "budget": "Budget Range*",
+            "message": "Message*"
+        },
+        "placeholders": {
+            "firstName": "e.g. John",
+            "lastName": "Connor",
+            "email": "connor@company.com",
+            "business": "Your company name",
+            "budget": "Select your budget range...",
+            "message": "Tell us about your project requirements and goals..."
+        },
+        "budgets": {
+            "range1": "€1,000 - €5,000",
+            "range2": "€5,000 - €15,000",
+            "range3": "€15,000 - €50,000",
+            "range4": "€50,000+"
+        },
+        "submit": "Submit"
+    },
+    "footer": {
+        "cta": "Ready to kickstart your project?",
+        "rights": "© 2026 BVDevs. All rights reserved.",
+        "links": {
+            "privacy": "Privacy Policy",
+            "terms": "Terms & Conditions"
+        },
+        "legal": {
+            "id": "ID: 12345678"
+        }
+    }
+}

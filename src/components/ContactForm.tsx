@@ -1,7 +1,10 @@
 import { useState, type ChangeEvent, type FormEvent } from "react";
 import type { ContactFormData } from "../interfaces/ContactFormData";
+import { useTranslation } from "react-i18next";
 
 export const ContactForm = () => {
+  const { t } = useTranslation();
+
   const [formData, setFormData] = useState<ContactFormData>({
     firstName: "",
     lastName: "",
@@ -34,14 +37,13 @@ export const ContactForm = () => {
   return (
     <div className="max-w-2xl mx-auto my-12">
       <form onSubmit={handleSubmit} className="space-y-5">
-        {/* Row: First & Last Name */}
         <div className="grid grid-cols-1 md:grid-cols-2 gap-5">
           <div>
-            <label className={labelStyles}>First Name*</label>
+            <label className={labelStyles}>{t("form.labels.firstName")}</label>
             <input
               type="text"
               name="firstName"
-              placeholder="e.g. John"
+              placeholder={t("form.placeholders.firstName")}
               required
               value={formData.firstName}
               onChange={handleChange}
@@ -49,11 +51,11 @@ export const ContactForm = () => {
             />
           </div>
           <div>
-            <label className={labelStyles}>Last Name*</label>
+            <label className={labelStyles}>{t("form.labels.lastName")}</label>
             <input
               type="text"
               name="lastName"
-              placeholder="e.g. Connor"
+              placeholder={t("form.placeholders.lastName")}
               required
               value={formData.lastName}
               onChange={handleChange}
@@ -62,13 +64,12 @@ export const ContactForm = () => {
           </div>
         </div>
 
-        {/* Email */}
         <div>
-          <label className={labelStyles}>Email Address*</label>
+          <label className={labelStyles}>{t("form.labels.email")}</label>
           <input
             type="email"
             name="email"
-            placeholder="connor@company.com"
+            placeholder={t("form.placeholders.email")}
             required
             value={formData.email}
             onChange={handleChange}
@@ -76,13 +77,12 @@ export const ContactForm = () => {
           />
         </div>
 
-        {/* Business */}
         <div>
-          <label className={labelStyles}>Business*</label>
+          <label className={labelStyles}>{t("form.labels.business")}</label>
           <input
             type="text"
             name="business"
-            placeholder="e.g. Studio Cactus"
+            placeholder={t("form.placeholders.business")}
             required
             value={formData.business}
             onChange={handleChange}
@@ -90,29 +90,26 @@ export const ContactForm = () => {
           />
         </div>
 
-        {/* Combo Box (Budget) */}
         <div>
-          <label className={labelStyles}>Budget Range*</label>
+          <label className={labelStyles}>{t("form.labels.budget")}</label>
           <div className="relative">
             <select
               name="budget"
               required
               value={formData.budget}
               onChange={handleChange}
-              // Removed bg-transparent so it uses the bg-gray-100 from inputStyles
               className={`${inputStyles} appearance-none cursor-pointer pr-10`}
             >
               <option value="" disabled>
-                Select your budget range...
+                {t("form.placeholders.budget")}
               </option>
-              <option value="1k-5k">$1,000 - $5,000</option>
-              <option value="5k-15k">$5,000 - $15,000</option>
-              <option value="15k-50k">$15,000 - $50,000</option>
-              <option value="50k+">$50,000+</option>
+              <option value="1k-5k">{t("form.budgets.range1")}</option>
+              <option value="5k-15k">{t("form.budgets.range2")}</option>
+              <option value="15k-50k">{t("form.budgets.range3")}</option>
+              <option value="50k+">{t("form.budgets.range4")}</option>
             </select>
-
             {/* Custom Arrow Icon */}
-            <div className="absolute inset-y-0 right-0 flex items-center pr-4 pointer-events-none text-gray-400">
+            <div className="absolute inset-y-0 right-0 flex items-center pr-4 pointer-events-none text-black">
               <svg
                 className="h-4 w-4"
                 fill="none"
@@ -130,12 +127,11 @@ export const ContactForm = () => {
           </div>
         </div>
 
-        {/* Message */}
         <div>
-          <label className={labelStyles}>Message*</label>
+          <label className={labelStyles}>{t("form.labels.message")}</label>
           <textarea
             name="message"
-            placeholder="Tell us about your project requirements and goals..."
+            placeholder={t("form.placeholders.message")}
             required
             rows={4}
             value={formData.message}
@@ -144,13 +140,12 @@ export const ContactForm = () => {
           ></textarea>
         </div>
 
-        {/* Submit Button */}
         <div className="pt-2">
           <button
             type="submit"
             className="w-full bg-black text-white font-bold py-3 rounded-lg transition-all active:scale-[0.98] cursor-pointer"
           >
-            Submit
+            {t("form.submit")}
           </button>
         </div>
       </form>

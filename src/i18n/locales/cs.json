@@ -1,0 +1,107 @@
+{
+    "nav": {
+        "home": "Domů",
+        "contact": "Kontaktujte nás"
+    },
+    "home": {
+        "title1": "Komplexní vývoj.",
+        "title2": "Bez kompromisů.",
+        "description1": "Máte nápad, který změní trh? My se postaráme o zbytek. Od první skici až po finální spuštění stavíme precizní a škálovatelné webové aplikace na míru vaší vizi.",
+        "description2": "V BVDevs věříme, že skvělé nápady si zaslouží bezchybnou realizaci. Nejsme jen kodéři – jsme vaši partneři pro celý cyklus vývoje. Provedeme vás každým krokem: od konzultace a designu přes samotný vývoj až po dlouhodobou podporu. Naše posedlost? Preciznost. Ať už spouštíte MVP, nebo digitalizujete komplexní proces, zajistíme, aby každý řádek kódu měl svůj jasný účel."
+    },
+    "grid": {
+        "header": "Špičkové technologie. Lidský přístup.",
+        "cells": {
+            "lightning": {
+                "name": "Bleskové rozhraní",
+                "text": "Vaši uživatelé očekávají rychlost. Dodáváme plynulé, interaktivní a responzivní webové zážitky s využitím špičkových moderních frameworků jako React a Next.js."
+            },
+            "performance": {
+                "name": "Nepřekonatelný výkon",
+                "text": "Vysoká návštěvnost? Žádný problém. Stavíme robustní backendy v jazyce Golang, aby vaše aplikace zůstala stabilní a neuvěřitelně rychlá bez ohledu na počet uživatelů."
+            },
+            "infrastructure": {
+                "name": "Škálovatelná infrastruktura",
+                "text": "Začněte v malém, rostě ve velkém. Nasazujeme na Google Cloud pomocí Dockeru a vytváříme bezpečné prostředí, které se automaticky škáluje s růstem vašeho podnikání."
+            },
+            "mobile": {
+                "name": "Nativní mobilní zážitek",
+                "text": "Buďte svým zákazníkům nablízku. Pro iOS i Android stavíme úžasné mobilní aplikace pomocí React Native, Swiftu a Kotlinu pro bezchybný pocit na každém zařízení."
+            },
+            "availability": {
+                "name": "Vždy na dosah",
+                "text": "Žádné komunikační propasti. Zakládáme si na tom, že jsme k dispozici, když nás potřebujete. Ať už máte rychlý dotaz nebo nový nápad, jsme jen jednu zprávu daleko."
+            },
+            "checkins": {
+                "name": "Pravidelné konzultace",
+                "text": "Držíme společný směr. Na plánovaných videohovorech diskutujeme o pokroku, sbíráme vaši zpětnou vazbu a společně plánujeme další kroky. Jste součástí týmu."
+            },
+            "transparency": {
+                "name": "Průzračný proces",
+                "text": "Sledujte, jak váš nápad ožívá. Sdílíme pravidelné aktualizace a dema, čímž vám dáváme plnou transparentnost ohledně vývoje i využití vašeho rozpočtu."
+            },
+            "partnership": {
+                "name": "Komplexní partnerství",
+                "text": "Jsme víc než jen programátoři. Provedeme vás celou cestou – od pilování úvodního konceptu až po finální spuštění a dál. Na vašem úspěchu nám záleží."
+            }
+        }
+    },
+    "contact": {
+        "hero": {
+            "title": "Pojďme do toho.",
+            "description": "Velké nápady nepatří do sešitu – patří na web. Řekněte nám něco o svém projektu a začněme společně budovat budoucnost."
+        },
+        "formSection": {
+            "title": "Spolupracujme. Začněte ještě dnes.",
+            "description": "Vyplňte prosím tento formulář a my se vám ozveme zpět do jednoho pracovního dne. Případně nám můžete poslat ",
+            "emailLink": "e-mail",
+            "placeholders": {
+                "name": "Vaše jméno",
+                "email": "Váš e-mail",
+                "subject": "Předmět",
+                "message": "Napište nám více o vašem projektu...",
+                "submit": "Odeslat zprávu"
+            },
+            "validation": {
+                "required": "Toto pole je povinné",
+                "invalidEmail": "Neplatná e-mailová adresa"
+            }
+        }
+    },
+    "form": {
+        "labels": {
+            "firstName": "Jméno*",
+            "lastName": "Příjmení*",
+            "email": "E-mailová adresa*",
+            "business": "Firma / Projekt*",
+            "budget": "Rozpočet*",
+            "message": "Zpráva*"
+        },
+        "placeholders": {
+            "firstName": "např. Jan",
+            "lastName": "Novák",
+            "email": "jan.novak@firma.cz",
+            "business": "Název vaší firmy",
+            "budget": "Vyberte rozsah rozpočtu...",
+            "message": "Popište nám vaše požadavky a cíle projektu..."
+        },
+        "budgets": {
+            "range1": "25 000 – 125 000 Kč",
+            "range2": "125 000 – 350 000 Kč",
+            "range3": "350 000 – 1 250 000 Kč",
+            "range4": "1 250 000 Kč+"
+        },
+        "submit": "Odeslat"
+    },
+    "footer": {
+        "cta": "Jste připraveni nastartovat svůj projekt?",
+        "rights": "© 2026 BVDevs. Všechna práva vyhrazena.",
+        "links": {
+            "privacy": "Ochrana osobních údajů",
+            "terms": "Obchodní podmínky"
+        },
+        "legal": {
+            "id": "IČO: 12345678"
+        }
+    }
+}
