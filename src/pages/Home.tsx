@@ -17,12 +17,12 @@ export const Home = () => {
           <h1 className="font-medium text-6xl">End-to-End Development.</h1>
           <h1 className="font-medium text-6xl"> Zero Compromises.</h1>
         </div>
-        <p className="text-gray-700">
+        <p className="text-gray-500">
           Got a game-changing idea? We handle the rest. From the first sketch to
           the final launch, we build precise, scalable web applications tailored
           to your vision.
         </p>
-        <p className="text-gray-700">
+        <p className="text-gray-500">
           At BVDevs, we believe that great ideas deserve flawless execution. We
           aren’t just coders; we are your full-cycle partners. We guide you
           through every step—consultation, design, development, and long-term
