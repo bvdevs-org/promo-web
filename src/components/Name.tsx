@@ -1,5 +1,3 @@
-import logoblend from "@assets/logo-blend.svg";
-
 export const BVName = ({
   className = "h-10 md:h-12",
   showText = true,
@@ -16,9 +14,9 @@ export const BVName = ({
     >
       <div className="h-full aspect-square flex items-center justify-center">
         <img
-          src={logoblend}
+          src="logo.svg"
           alt="BVDevs Logo"
-          className={`h-[85%] w-auto object-contain transition-all duration-300 ${isDark ? "" : "invert"}`}
+          className={`h-[85%] w-auto object-contain transition-all duration-300 ${isDark ? "invert" : ""}`}
         />
       </div>
 
