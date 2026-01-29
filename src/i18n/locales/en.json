@@ -78,7 +78,7 @@
             "message": "Message*"
         },
         "placeholders": {
-            "firstName": "e.g. John",
+            "firstName": "John",
             "lastName": "Connor",
             "email": "connor@company.com",
             "business": "Your company name",

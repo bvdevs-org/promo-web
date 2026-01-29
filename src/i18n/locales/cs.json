@@ -78,7 +78,7 @@
             "message": "Zpráva*"
         },
         "placeholders": {
-            "firstName": "např. Jan",
+            "firstName": "Jan",
             "lastName": "Novák",
             "email": "jan.novak@firma.cz",
             "business": "Název vaší firmy",
