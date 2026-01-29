@@ -7,7 +7,9 @@ export const GridCell = ({ icon, name, text }: GridCellProps) => {
         {icon}
       </div>
       <h4 className="text-xl">{name}</h4>
-      <p className="text-neutral-600">{text}</p>
+      <p className="text-neutral-600 wrap-break-word whitespace-normal">
+        {text}
+      </p>
     </div>
   );
 };

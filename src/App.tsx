@@ -9,18 +9,23 @@ import { LanguageSwitcher } from "./components/LanguageSwitcher";
 
 export default function App() {
   return (
-    <div className="flex w-full items-center justify-center bg-white">
+    <div className="relative min-h-screen w-full bg-white overflow-x-hidden">
+      {/* Fixed Elements */}
       <div className="fixed top-8 left-5 lg:top-10 lg:left-10 mix-blend-difference z-50">
         <BVName className="h-10 text-3xl" />
       </div>
 
-      <Navigation />
+      {/* Navigation: Hidden on mobile, flex on medium screens+ */}
+      <div className="hidden md:flex">
+        <Navigation />
+      </div>
 
-      <div className="fixed top-8 right-5 lg:top-10 lg:right-10 mix-blend-difference z-50">
+      {/* Switcher: Hidden on mobile, block on medium screens+ */}
+      <div className="hidden md:block fixed top-8 right-5 lg:top-10 lg:right-10 mix-blend-difference z-50">
         <LanguageSwitcher />
       </div>
 
-      <div className="pt-40">
+      <div className="pt-40 w-full">
         <AppRoutes />
       </div>
     </div>

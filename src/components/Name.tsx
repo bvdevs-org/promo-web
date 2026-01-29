@@ -18,8 +18,9 @@ export const BVName = ({ className = "h-10 md:h-12", showText = true }) => {
         />
       </div>
 
+      {/* Text: Hidden on mobile, flex on medium screens+ and if showText is true */}
       {showText && (
-        <div className="flex flex-col justify-center select-none">
+        <div className="hidden md:flex flex-col justify-center select-none">
           <span className="font-['Red_Hat_Display',sans-serif] font-bold text-white tracking-[0.1px] leading-none text-lg lg:text-2xl whitespace-nowrap">
             BVDevs
           </span>
