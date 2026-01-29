@@ -4,7 +4,7 @@ export const Footer = () => {
   const { t } = useTranslation();
 
   return (
-    <footer className="bg-black text-white py-20 px-6">
+    <footer data-header="dark" className="bg-black text-white py-20 px-6">
       <div className="max-w-6xl mx-auto flex flex-col items-center text-center">
         <p className="text-gray-400 uppercase tracking-widest text-sm mb-4">
           {t("footer.cta")}

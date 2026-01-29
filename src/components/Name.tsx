@@ -1,6 +1,10 @@
 import logoblend from "@assets/logo-blend.svg";
 
-export const BVName = ({ className = "h-10 md:h-12", showText = true }) => {
+export const BVName = ({
+  className = "h-10 md:h-12",
+  showText = true,
+  isDark = false,
+}) => {
   const scrollToTop = () => {
     window.scrollTo({ top: 0, behavior: "smooth" });
   };
@@ -14,7 +18,7 @@ export const BVName = ({ className = "h-10 md:h-12", showText = true }) => {
         <img
           src={logoblend}
           alt="BVDevs Logo"
-          className="h-[85%] w-auto object-contain"
+          className={`h-[85%] w-auto object-contain transition-all duration-300 ${isDark ? "" : "invert"}`}
         />
       </div>
 

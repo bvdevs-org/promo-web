@@ -142,6 +142,7 @@ export const ContactForm = () => {
 
         <div className="pt-2">
           <button
+            data-header="dark"
             type="submit"
             className="w-full bg-black text-white font-bold py-3 rounded-lg transition-all active:scale-[0.98] cursor-pointer"
           >

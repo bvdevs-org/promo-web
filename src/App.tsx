@@ -6,13 +6,19 @@ import { Contact } from "./pages/Contact";
 import { useTranslation } from "react-i18next";
 import { routeMap, type Language } from "./i18n/routes";
 import { LanguageSwitcher } from "./components/LanguageSwitcher";
+import { useScrollColor } from "./hooks/useScrollCollor";
 
 export default function App() {
+  const isDark = useScrollColor();
+
   return (
     <div className="relative min-h-screen w-full bg-white overflow-x-hidden">
       {/* Fixed Elements */}
-      <div className="fixed top-8 left-5 lg:top-10 lg:left-10 mix-blend-difference z-50">
-        <BVName className="h-10 text-3xl" />
+      <div
+        id="logo-trigger"
+        className="fixed top-8 left-5 lg:top-10 lg:left-10 z-50"
+      >
+        <BVName className="h-10 text-3xl" isDark={isDark} />
       </div>
 
       {/* Navigation: Hidden on mobile, flex on medium screens+ */}
