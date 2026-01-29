@@ -1,5 +1,5 @@
 import { useTranslation } from "react-i18next";
-import { TechGrid } from "../components/TechGrid";
+import { TechGrid } from "../components/grid/TechGrid";
 import { SEO } from "../components/SEO";
 
 export const Home = () => {

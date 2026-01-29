@@ -1,4 +1,4 @@
-import type { PublicButtonProps } from "../../interfaces/ButtonProps";
+import type { PublicButtonProps } from "@interfaces/ButtonProps";
 import { BaseButton } from "./BaseButton";
 
 export const BlackButton = (props: PublicButtonProps) => {

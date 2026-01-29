@@ -1,5 +1,5 @@
 import { NavLink } from "react-router-dom";
-import type { ButtonProps } from "../../interfaces/ButtonProps";
+import type { ButtonProps } from "@interfaces/ButtonProps";
 
 export const BaseButton = ({
   text,

@@ -1,4 +1,4 @@
-import logoblend from "../assets/logo-blend.svg";
+import logoblend from "@assets/logo-blend.svg";
 
 export const BVName = ({ className = "h-10 md:h-12", showText = true }) => {
   const scrollToTop = () => {

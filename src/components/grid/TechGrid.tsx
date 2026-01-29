@@ -1,13 +1,15 @@
 import { useTranslation } from "react-i18next";
 
-import lightning from "../assets/lightning.svg";
-import shield from "../assets/shield.svg";
-import cloud from "../assets/cloud.svg";
-import phone from "../assets/phone.svg";
-import message from "../assets/message.svg";
-import users from "../assets/users.svg";
-import progress from "../assets/progress.svg";
-import infinity from "../assets/infinity.svg";
+// Icons
+import lightning from "@assets/lightning.svg";
+import shield from "@assets/shield.svg";
+import cloud from "@assets/cloud.svg";
+import phone from "@assets/phone.svg";
+import message from "@assets/message.svg";
+import users from "@assets/users.svg";
+import progress from "@assets/progress.svg";
+import infinity from "@assets/infinity.svg";
+
 import { GridCell } from "./GridCell";
 
 const iconMap: Record<string, string> = {

@@ -1,4 +1,4 @@
-import type { GridCellProps } from "../interfaces/GridCellProps";
+import type { GridCellProps } from "@interfaces/GridCellProps";
 
 export const GridCell = ({ icon, name, text }: GridCellProps) => {
   return (
