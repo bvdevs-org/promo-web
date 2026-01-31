@@ -18,7 +18,7 @@ export const Contact = () => {
         </div>
       </div>
       <div className="px-6 lg:px-50 pb-20">
-        <div className="border border-neutral-400 rounded-3xl grid grid-cols-1 lg:grid-cols-2 px-10 py-5">
+        <div className="border border-neutral-400 rounded-3xl grid grid-cols-1 py-20 lg:grid-cols-2 px-10 lg:py-5">
           <div className="flex flex-col gap-5 place-content-center">
             <h3 className="text-3xl lg:text-4xl">
               {t("contact.formSection.title")}

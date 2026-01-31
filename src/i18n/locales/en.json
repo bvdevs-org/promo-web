@@ -1,7 +1,8 @@
 {
     "nav": {
         "home": "Home",
-        "contact": "Contact-us"
+        "contact": "Contact-us",
+        "project1": "Project 1."
     },
     "home": {
         "title1": "End-to-End Development.",
@@ -102,6 +103,14 @@
         },
         "legal": {
             "id": "ID: 12345678"
+        }
+    },
+    "wip": {
+        "title": "Project in Development",
+        "subtitle": "We are currently working on this section of the portfolio.",
+        "card": {
+            "title": "More Coming Soon",
+            "text": "This project is currently under active development. We will update this page with full details, technical specifications, and demos once it is completed and deployed."
         }
     }
 }

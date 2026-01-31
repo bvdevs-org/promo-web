@@ -35,7 +35,7 @@ export const ContactForm = () => {
   const labelStyles = "block mb-1.5 text-normal";
 
   return (
-    <div className="max-w-2xl mx-auto my-12">
+    <div className="max-w-2xl mx-auto mt-12 lg:my-12">
       <form onSubmit={handleSubmit} className="space-y-5">
         <div className="grid grid-cols-2 gap-5">
           <div>

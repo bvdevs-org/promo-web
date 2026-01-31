@@ -1,7 +1,8 @@
 {
     "nav": {
         "home": "Domů",
-        "contact": "Kontaktujte nás"
+        "contact": "Kontaktujte nás",
+        "project1": "Project 1."
     },
     "home": {
         "title1": "Komplexní vývoj.",
@@ -102,6 +103,14 @@
         },
         "legal": {
             "id": "IČO: 12345678"
+        }
+    },
+    "wip": {
+        "title": "Projekt ve vývoji",
+        "subtitle": "Na této části portfolia momentálně pracujeme.",
+        "card": {
+            "title": "Brzy zveřejníme více",
+            "text": "Tento projekt se právě nachází ve fázi aktivního vývoje. Kompletní informace, technické detaily a ukázky řešení doplníme ihned po jeho dokončení a nasazení."
         }
     }
 }

@@ -1,15 +1,17 @@
-import { useState } from "react";
+import type { BurgerButtonProps } from "@interfaces/BurgerButtonProps";
 
-export const BurgerButton = ({ isDark = false }) => {
-  const [isOpen, setIsOpen] = useState(false);
-
+export const BurgerButton = ({
+  isDark = false,
+  isOpen,
+  onClick,
+}: BurgerButtonProps) => {
   // Define generic classes for both lines
   // We explicitly set 'y' to 12 in the SVG line tag below
   const lineClass = `origin-center transition-transform duration-300 ease-in-out`;
 
   return (
     <button
-      onClick={() => setIsOpen(!isOpen)}
+      onClick={onClick}
       aria-label="Toggle menu"
       className={`p-2 focus:outline-none ${isDark ? "invert" : ""}`}
     >

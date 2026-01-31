@@ -12,6 +12,7 @@ export const BaseButton = ({
   if (to) {
     return (
       <NavLink
+        onClick={onClick}
         to={to}
         className={({ isActive }) =>
           `${className} ${isActive ? activeClassName : ""}`

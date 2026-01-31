@@ -34,7 +34,7 @@ export const LanguageSwitcher = () => {
   const currentLang = i18n.language as Language;
 
   return (
-    <div className="flex items-center bg-white rounded-full p-1 ml-4">
+    <div className="flex items-center bg-white rounded-full p-1 mix-blend-difference">
       {(["cs", "en"] as Language[]).map((lang) => {
         const isActive = currentLang === lang;
         return (
