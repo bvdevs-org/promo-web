@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+    xmlns:xhtml="http://www.w3.org/1999/xhtml">
+    <url>
+        <loc>https://bvdevs.com/</loc>
+        <lastmod>2026-01-31</lastmod>
+        <xhtml:link rel="alternate" hreflang="cs" href="https://bvdevs.cz/" />
+        <xhtml:link rel="alternate" hreflang="en" href="https://bvdevs.com/" />
+    </url>
+    <url>
+        <loc>https://bvdevs.cz/</loc>
+        <lastmod>2026-01-31</lastmod>
+        <xhtml:link rel="alternate" hreflang="cs" href="https://bvdevs.cz/" />
+        <xhtml:link rel="alternate" hreflang="en" href="https://bvdevs.com/" />
+    </url>
+
+    <url>
+        <loc>https://bvdevs.com/contact</loc>
+        <lastmod>2026-01-31</lastmod>
+        <xhtml:link rel="alternate" hreflang="cs" href="https://bvdevs.cz/kontakt" />
+        <xhtml:link rel="alternate" hreflang="en" href="https://bvdevs.com/contact" />
+    </url>
+    <url>
+        <loc>https://bvdevs.cz/kontakt</loc>
+        <lastmod>2026-01-31</lastmod>
+        <xhtml:link rel="alternate" hreflang="cs" href="https://bvdevs.cz/kontakt" />
+        <xhtml:link rel="alternate" hreflang="en" href="https://bvdevs.com/contact" />
+    </url>
+
+    <url>
+        <loc>https://bvdevs.com/project1</loc>
+        <lastmod>2026-01-31</lastmod>
+        <xhtml:link rel="alternate" hreflang="cs" href="https://bvdevs.cz/projekt1" />
+        <xhtml:link rel="alternate" hreflang="en" href="https://bvdevs.com/project1" />
+    </url>
+    <url>
+        <loc>https://bvdevs.cz/projekt1</loc>
+        <lastmod>2026-01-31</lastmod>
+        <xhtml:link rel="alternate" hreflang="cs" href="https://bvdevs.cz/projekt1" />
+        <xhtml:link rel="alternate" hreflang="en" href="https://bvdevs.com/project1" />
+    </url>
+</urlset>
