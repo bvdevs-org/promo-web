@@ -112,5 +112,19 @@
             "title": "Brzy zveřejníme více",
             "text": "Tento projekt se právě nachází ve fázi aktivního vývoje. Kompletní informace, technické detaily a ukázky řešení doplníme ihned po jeho dokončení a nasazení."
         }
+    },
+    "seo": {
+        "home": {
+            "title": "Vývoj webových aplikací na míru | BV Devs",
+            "description": "Stavíme moderní softwarová řešení, která pomáhají firmám růst."
+        },
+        "contact": {
+            "title": "Kontaktujte nás | BV Devs",
+            "description": "Máte projekt v hlavě? Ozvěte se nám na nezávaznou konzultaci."
+        },
+        "project1": {
+            "title": "Stránka ve výstavbě | BV Devs",
+            "description": "Na této části našeho webu právě pracujeme. Brzy se můžete těšit na nový obsah."
+        }
     }
 }

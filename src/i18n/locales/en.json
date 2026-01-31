@@ -112,5 +112,19 @@
             "title": "More Coming Soon",
             "text": "This project is currently under active development. We will update this page with full details, technical specifications, and demos once it is completed and deployed."
         }
+    },
+    "seo": {
+        "home": {
+            "title": "Custom Web App Development | BV Devs",
+            "description": "We build scalable software solutions that drive business growth."
+        },
+        "contact": {
+            "title": "Contact Us | BV Devs",
+            "description": "Have a project in mind? Let's discuss your ideas."
+        },
+        "project1": {
+            "title": "Work in Progress | BV Devs",
+            "description": "We are currently working on this section. Check back soon for new content."
+        }
     }
 }
