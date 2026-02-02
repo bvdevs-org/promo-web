@@ -37,8 +37,8 @@ func Handler(w http.ResponseWriter, r *http.Request) {
 		return
 	}
 
-	smtpHost := "smtp.gmail.com"
-	smtpPort := "587"
+	smtpHost := os.Getenv("SMTP_HOST")
+	smtpPort := os.Getenv("SMTP_PORT")
 	senderEmail := os.Getenv("SMTP_USER")
 	senderPassword := os.Getenv("SMTP_PASSWORD")
 	recipientEmail := os.Getenv("RECIPIENT_EMAIL")
