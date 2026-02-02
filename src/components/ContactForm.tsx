@@ -14,9 +14,39 @@ export const ContactForm = () => {
     message: "",
   });
 
-  const handleSubmit = (e: FormEvent<HTMLFormElement>): void => {
+  const [hpField, setHpField] = useState("");
+
+  const handleSubmit = async (e: FormEvent<HTMLFormElement>) => {
     e.preventDefault();
-    console.log("Form Submitted:", formData);
+    try {
+      const payload = {
+        ...formData,
+        hp_field: hpField,
+      };
+
+      const response = await fetch("/api/email", {
+        method: "POST",
+        headers: {
+          "Content-Type": "application/json",
+        },
+        body: JSON.stringify(payload),
+      });
+
+      if (!response.ok) {
+        throw new Error("Network response was not ok");
+      }
+
+      setFormData({
+        firstName: "",
+        lastName: "",
+        email: "",
+        business: "",
+        budget: "",
+        message: "",
+      });
+    } catch (error) {
+      console.error("Error sending form:", error);
+    }
   };
 
   const handleChange = (
@@ -36,6 +66,16 @@ export const ContactForm = () => {
 
   return (
     <div className="max-w-2xl mx-auto mt-12 lg:my-12">
+      <div style={{ display: "none" }} aria-hidden="true">
+        <input
+          type="text"
+          name="hp_field"
+          value={hpField}
+          onChange={(e) => setHpField(e.target.value)}
+          tabIndex={-1}
+          autoComplete="off"
+        />
+      </div>
       <form onSubmit={handleSubmit} className="space-y-5">
         <div className="grid grid-cols-2 gap-5">
           <div>
