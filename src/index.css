@@ -1,6 +1,6 @@
 @import "tailwindcss";
 
 element-style {
-    min-height: 100vh;
-    width: auto;
+  min-height: 100vh;
+  width: auto;
 }
