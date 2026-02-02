@@ -33,7 +33,7 @@ export const TechGrid = () => {
       data-header="dark"
       className="flex flex-col gap-24 items-center place-content-center bg-black text-white lg:px-40 px-6 py-20"
     >
-      <h3 className="font-medium text-2xl">{t("grid.header")}</h3>
+      <h2 className="font-medium text-2xl">{t("grid.header")}</h2>
 
       <div className="grid grid-cols-2 gap-6 lg:grid-cols-4 lg:gap-12">
         {Object.entries(cells).map(([key, value]) => (

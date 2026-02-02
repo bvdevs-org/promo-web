@@ -12,6 +12,7 @@ export const Footer = () => {
 
         <a
           href="mailto:info@bvdevs.com"
+          aria-label="Email info@bvdevs.com"
           className="text-4xl md:text-6xl font-bold text-zinc-300 hover:text-white transition-all duration-300 ease-in-out"
         >
           info@bvdevs.com
@@ -19,7 +20,7 @@ export const Footer = () => {
 
         <div className="w-full h-px bg-zinc-900 my-12"></div>
 
-        <div className="flex flex-col md:flex-row justify-between items-center w-full text-[10px] text-zinc-500 gap-6 uppercase tracking-widest">
+        <div className="flex flex-col md:flex-row justify-between items-center w-full text-[10px] text-zinc-400 gap-6 uppercase tracking-widest">
           <p>{t("footer.rights")}</p>
 
           <div className="flex flex-wrap justify-center gap-6">

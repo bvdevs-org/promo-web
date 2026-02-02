@@ -125,6 +125,18 @@
         "project1": {
             "title": "Stránka ve výstavbě | BV Devs",
             "description": "Na této části našeho webu právě pracujeme. Brzy se můžete těšit na nový obsah."
+        },
+        "notFound": {
+            "title": "Stránka nenalezena (404) | BV Devs",
+            "description": "Tato stránka bohužel neexistuje."
+        }
+    },
+    "404": {
+        "title": "Stránka nenalezena",
+        "subtitle": "Jejda! Tady nic není.",
+        "card": {
+            "title": "Ztratili jste se?",
+            "text": "Stránka, kterou hledáte, neexistuje, byla přesunuta nebo je momentálně nedostupná."
         }
     }
 }

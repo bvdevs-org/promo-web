@@ -14,7 +14,7 @@ const getLanguageByDomain = () => {
     if (hostname.endsWith(".cz")) return "cs";
     if (hostname.endsWith(".com")) return "en";
   }
-  return "cs";
+  return "en";
 };
 
 i18n.use(initReactI18next).init({
